@@ -410,3 +410,9 @@ body {
         font-size: 32px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .card_2 h2 {
+        font-size: 29px;
+    }
+}
