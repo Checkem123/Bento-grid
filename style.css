@@ -412,7 +412,16 @@ body {
 }
 
 @media screen and (max-width: 360px) {
+    .container {
+        padding: 50px 30px;
+    }
+
+    .grid {
+        gap: 50px;
+        grid-template-rows: auto;
+    }
+
     .card_2 h2 {
-        font-size: 29px;
+        font-size: 26px;
     }
 }
