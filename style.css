@@ -14,6 +14,7 @@
     --Yellow-500: hsl(39, 100%, 71%);
 
     --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 89%);
     --Black: hsl(0, 0%, 7%);
 
     --ff-DM-sans: "DM sans", sans-serif;
@@ -23,19 +24,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
-    color: aliceblue;
+    background-color: var(--Grey);
 }
 
 .container {
-    border: 1px solid red;
     width: 1350px;
     padding: 75px 152px 59px 149px;
-    background-color: #333;
+    background-color: var(--Grey);
 }
 
 .grid {
-    border: 1px solid green;
     display: grid;
     width: 1050px;
     grid-template-columns: repeat(4, 240px);
@@ -44,7 +42,6 @@ body {
 }
 
 .card {
-    border: 1px solid yellow;
     border-radius: 10px;
 }
 
@@ -84,6 +81,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: "DM Sans", serif;
+    color: var(--White);
 }
 
 .card_2 h2 {
